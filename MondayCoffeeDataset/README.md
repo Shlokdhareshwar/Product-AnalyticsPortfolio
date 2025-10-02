@@ -1,4 +1,4 @@
-# Monday Coffee Expansion SQL Project
+# Monday Coffee Expansion (SQL Project)
 
 
 ## Objective
