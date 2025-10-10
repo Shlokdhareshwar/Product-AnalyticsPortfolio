@@ -1,0 +1,2 @@
+
+This document outlines the detailed specifications for five core API endpoints of a social networking platform, demonstrating competency in foundational RESTful API design and documentation. This artifact translates product requirements (e.g., creating a user, editing a profile, managing content) into structured technical contracts for engineering teams. Each section specifies the endpoint URL, the required HTTP method, the data payload needed in the request, and the expected response body and status code.
