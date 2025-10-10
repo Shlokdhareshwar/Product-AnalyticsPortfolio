@@ -1,0 +1,79 @@
+Product Management Project: LinkedIn Core API Design Specifications
+This document outlines the detailed specifications for five core API endpoints of a social networking platform, demonstrating competency in foundational RESTful API design and documentation. This artifact translates product requirements (e.g., creating a user, editing a profile, managing content) into structured technical contracts for engineering teams. Each section specifies the endpoint URL, the required HTTP method, the data payload needed in the request, and the expected response body and status code.
+
+1. Create user
+Request
+End point: https://www.google.com/search?q=api.linkedin.com/create_user
+Payload:
+{
+name: "Shlok Dhareshwar",
+email: "info@hellopm.co"
+}
+Method: POST
+
+Response
+Body:
+{user_id: 123}
+Status: 200
+
+2. Edit profile
+Request
+End point: https://www.google.com/search?q=api.linkedin.com/edit_user
+Header: Authentication_code:
+Payload:
+{
+name: "Shlok Dhareshwar",
+user_id: ""
+}
+Method: PUT
+
+Response
+Body:
+{name: "Shlok Dhareshwar"}
+Status: {200}
+
+3. Show all connection requests
+Request
+End point: https://www.google.com/search?q=api.linkedin.com/connections_r
+Authorization:
+Payload:
+{"User_id":
+"count":}
+Method: GET
+
+Response
+Body:
+List: {
+{user_id, profile_pic, name, account_link},
+{user_id, profile_pic, name, account_link},
+{user_id, profile_pic, name, account_link}
+}
+Status: 200
+
+4. Create Post
+Request
+End point: https://www.google.com/search?q=api.linkedin.com/create_post
+Payload:
+{
+"Post_text":
+"user_id":
+}
+Method: POST
+
+Response
+Body:
+Status:
+
+5. Delete Post
+Request
+End point: https://www.google.com/search?q=api.linkedin.com/delete_post
+Authorization:
+Payload:
+{
+"Post_id": ""
+}
+Method: DELETE
+
+Response
+Body:
+Status:
