@@ -1,0 +1,1 @@
+Customer Churn Predictor: An end-to-end project predicting which customers are likely to churn using RFM (Recency, Frequency, Monetary) features. Implemented with SQL & Python, trained a Logistic Regression model, and identified high-risk customers for targeted re-engagement campaigns.
