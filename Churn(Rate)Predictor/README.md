@@ -1,1 +1,5 @@
-Customer Churn Predictor: An end-to-end project predicting which customers are likely to churn using RFM (Recency, Frequency, Monetary) features. Implemented with SQL & Python, trained a Logistic Regression model, and identified high-risk customers for targeted re-engagement campaigns.
+Customer Churn Predictor is an end-to-end project that demonstrates how to transition from descriptive analytics to predictive modeling. The goal is to identify customers at high risk of leaving a service. Using a synthetic e-commerce dataset of 2,000 customers and 13,924 transactions, we perform RFM (Recency, Frequency, Monetary) feature engineering to summarize customer behavior. Customers are labeled as churned or active based on a 90-day inactivity threshold.
+
+The project uses SQL to aggregate data efficiently and Python (pandas, scikit-learn) for data preparation, modeling, and evaluation. A Logistic Regression model is trained to predict churn, and its performance is measured using accuracy, confusion matrix, and classification metrics. The model outputs churn probabilities, allowing the identification of the top 10% high-risk customers for targeted re-engagement campaigns, demonstrating actionable business insights.
+
+Skills demonstrated: Data Cleaning, Feature Engineering, SQL Aggregations, Predictive Modeling, Python, and Business Analytics.
